@@ -80,3 +80,15 @@ RefactoringAction 1497033330592 BowlingGame.java ADD void DodajBonusNaFrejmove F
 RefactoringAction 1497033332121 BowlingGame.java RENAME DodajBonusNaFrejmove=>void DodajBonusNaFrejmove() METHOD
 RefactoringAction 1497033409193 BowlingGame.java RENAME DodajBonusNaFrejmove()=><initializer /1> null
 EditAction 1497033411764 BowlingGame.java 1153 5 3 0
+CompilationAction 1497033414526 BowlingGame.java
+UnitTestCaseAction 1497033416684 TestBowling.java FAIL
+UnitTestSessionAction 1497033416685 TestBowling.java FAIL
+CompilationAction 1497033425637 BowlingGame.java
+UnitTestCaseAction 1497033427618 TestBowling.java FAIL
+UnitTestSessionAction 1497033427619 TestBowling.java FAIL
+RefactoringAction 1497033463799 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497033467817 TestBowling.java RENAME test_=>void test_Bo FIELD
+RefactoringAction 1497033472862 TestBowling.java RENAME test_Bo=>void test_BonusNaDesetoBacanje FIELD
+RefactoringAction 1497033474898 TestBowling.java RENAME test_BonusNaDesetoBacanje=>void test_BonusNaDesetoBacanje() METHOD
+RefactoringAction 1497033742639 TestBowling.java REMOVE test_BonusNaDesetoBacanje() METHOD
+EditAction 1497033790686 TestBowling.java 815 4 12 4
