@@ -181,3 +181,4 @@ RefactoringAction 1497035225457 BowlingGame.java ADD void BonbusDesetoBacanje() 
 RefactoringAction 1497035230620 BowlingGame.java RENAME BonbusDesetoBacanje()=>void BonbusDesetoBacanje(int) METHOD
 RefactoringAction 1497035392957 BowlingGame.java REMOVE BonbusDesetoBacanje(int) METHOD
 EditAction 1497035480787 TestBowling.java 2498 8 65 8
+EditAction 1497035483876 BowlingGame.java 1348 5 6 0
