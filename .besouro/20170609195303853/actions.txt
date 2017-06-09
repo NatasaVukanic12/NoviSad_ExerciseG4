@@ -155,3 +155,10 @@ RefactoringAction 1497034850394 Frame.java REMOVE addBonus(int) METHOD
 EditAction 1497034854450 TestBowling.java 1141 6 21 6
 CompilationAction 1497034858444 TestBowling.java
 EditAction 1497034858600 Frame.java 840 6 9 0
+CompilationAction 1497034862110 BowlingGame.java
+CompilationAction 1497034862110 TestBowling.java
+CompilationAction 1497034862110 TestBowling.java
+UnitTestCaseAction 1497034864512 TestBowling.java FAIL
+UnitTestSessionAction 1497034864512 TestBowling.java FAIL
+RefactoringAction 1497034868943 Frame.java ADD void addBonus(int) METHOD
+EditAction 1497034875152 Frame.java 899 7 10 0
