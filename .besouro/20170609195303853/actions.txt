@@ -115,3 +115,6 @@ RefactoringAction 1497034154007 BowlingGame.java RENAME dodajBonuseFrejmovima()=
 RefactoringAction 1497034156556 BowlingGame.java RENAME dodajBonuse()=>void dodajSpareBonuse() METHOD
 RefactoringAction 1497034160080 BowlingGame.java RENAME dodajSpareBonuse()=>void dodajSpareBonus() METHOD
 EditAction 1497034164549 BowlingGame.java 1222 5 4 0
+CompilationAction 1497034167559 BowlingGame.java
+CompilationAction 1497034167560 TestBowling.java
+EditAction 1497034167732 Frame.java 899 7 10 0
