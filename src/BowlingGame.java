@@ -35,6 +35,12 @@ public class BowlingGame {
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
+		dodajSpareStrikeBonus();
+		for(int i=0; i < frames.size(); i++)
+		{
+			s = s + frames.get(i).score();
+		}
+		
 	}
 
 	
