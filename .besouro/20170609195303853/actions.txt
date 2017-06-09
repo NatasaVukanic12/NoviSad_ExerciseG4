@@ -54,3 +54,13 @@ RefactoringAction 1497031908250 TestBowling.java ADD import java.util.List IMPOR
 RefactoringAction 1497032025325 TestBowling.java REMOVE test_addFrame() METHOD
 EditAction 1497032044604 TestBowling.java 560 3 6 3
 EditAction 1497032047562 BowlingGame.java 730 4 2 0
+UnitTestCaseAction 1497032051464 TestBowling.java OK
+UnitTestSessionAction 1497032051466 TestBowling.java OK
+RefactoringAction 1497032081467 TestBowling.java ADD void test_ FIELD
+RefactoringAction 1497032082987 TestBowling.java RENAME test_=>void test_Dodaj FIELD
+RefactoringAction 1497032086026 TestBowling.java RENAME test_Dodaj=>void test_DodajBonusNa FIELD
+RefactoringAction 1497032087043 TestBowling.java RENAME test_DodajBonusNa=>void test_DodajBonusNaFr FIELD
+RefactoringAction 1497032089059 TestBowling.java RENAME test_DodajBonusNaFr=>void test_DodajBonusNaFrame FIELD
+RefactoringAction 1497032090076 TestBowling.java RENAME test_DodajBonusNaFrame=>void test_DodajBonusNaFrame() METHOD
+RefactoringAction 1497032141195 TestBowling.java RENAME test_DodajBonusNaFrame()=>void test_DodajBonusNaFrameSpare() METHOD
+EditAction 1497032630909 TestBowling.java 813 4 12 4
