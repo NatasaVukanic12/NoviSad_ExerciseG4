@@ -52,11 +52,11 @@ public class TestBowling {
 		
 	}
 	
-	/*@Test
+	@Test
 	public void test_AddBonus(){
 		Frame f1 = new Frame(3,1);
 		f1.addBonus(5);
-		assertEquals(9, );
-	}*/
+		assertEquals(9, f1);
+	}
 
 }

@@ -140,3 +140,16 @@ UnitTestSessionAction 1497034589187 TestBowling.test_DodajBonus FAIL
 RefactoringAction 1497034593134 TestBowling.java REMOVE test_AddBonus() METHOD
 CompilationAction 1497034730866 TestBowling.java
 EditAction 1497034731006 BowlingGame.java 1345 5 6 0
+CompilationAction 1497034734095 TestBowling.java
+UnitTestCaseAction 1497034736232 TestBowling.java FAIL
+UnitTestSessionAction 1497034736232 TestBowling.test_DodajBonus FAIL
+RefactoringAction 1497034746154 TestBowling.java REMOVE test_ScoreGame() METHOD
+RefactoringAction 1497034746154 TestBowling.java REMOVE test_DodajBonus() METHOD
+RefactoringAction 1497034748744 TestBowling.java ADD void test_ScoreGame() METHOD
+CompilationAction 1497034751084 TestBowling.java
+UnitTestCaseAction 1497034752004 TestBowling.java OK
+UnitTestSessionAction 1497034752004 TestBowling.java OK
+RefactoringAction 1497034759086 TestBowling.java ADD void test_DodajBonus() METHOD
+RefactoringAction 1497034782330 TestBowling.java ADD void test_AddBonus() METHOD
+RefactoringAction 1497034850394 Frame.java REMOVE addBonus(int) METHOD
+EditAction 1497034854450 TestBowling.java 1141 6 21 6
