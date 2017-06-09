@@ -10,6 +10,8 @@ public class BowlingGame {
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
 	
+	private int s=0;
+	
 	public BowlingGame(){}
 	
 	// adds a frame to the game
@@ -18,11 +20,24 @@ public class BowlingGame {
 		frames.add(frame);
 	}
 	
-	
+	public void DodajSpareBonus() throws BowlingException{
+		
+		for(int i=0; i<frames.size(); i++){
+			if((frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow()) == 10){
+				s= frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow() + frames.get(i+1).getFirstThrow();
+			
+			}
+			else{
+				throw new BowlingException();
+			}
+			
+		}
+	}
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
 		//to be implemented
 	}
+
 	
 	// Returns the game score
 	public int score(){
