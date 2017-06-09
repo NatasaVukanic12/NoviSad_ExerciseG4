@@ -1,0 +1,14 @@
+FileOpenedAction 1497030784479 BowlingGame.java 708 4 1 0
+FileOpenedAction 1497030806010 TestBowling.java 165 1 1 0
+FileOpenedAction 1497030808372 Frame.java 671 6 7 0
+RefactoringAction 1497030976148 TestBowling.java REMOVE test() METHOD
+RefactoringAction 1497030990730 TestBowling.java ADD void Test FIELD
+RefactoringAction 1497030993745 TestBowling.java RENAME Test=>void test FIELD
+RefactoringAction 1497031015765 TestBowling.java RENAME test=>void test_Consructor FIELD
+RefactoringAction 1497031017854 TestBowling.java RENAME test_Consructor=>void test_Consructor() METHOD
+RefactoringAction 1497031066893 TestBowling.java REMOVE test_Consructor() METHOD
+RefactoringAction 1497031076931 TestBowling.java ADD void test FIELD
+RefactoringAction 1497031094443 TestBowling.java RENAME test=>void test_ FIELD
+RefactoringAction 1497031096454 TestBowling.java RENAME test_=>void test_Score FIELD
+RefactoringAction 1497031097471 TestBowling.java RENAME test_Score=>void test_Score() METHOD
+EditAction 1497031154627 TestBowling.java 279 1 2 1
