@@ -41,6 +41,15 @@ public class TestBowling {
 		assertEquals(19,game.DodajSpareBonus());
 	}
 	
-	
+	@Test
+	public void test_ScoreGame(){
+		BowlingGame game = new BowlingGame();
+		Frame f1 = new Frame(5,1);
+		Frame f2 = new Frame(3,1);
+		game.addFrame(f1);
+		game.addFrame(f2);
+		assertEquals(10, game.score());
+		
+	}
 
 }
