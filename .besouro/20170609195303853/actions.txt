@@ -31,3 +31,6 @@ RefactoringAction 1497031650728 Frame.java RENAME isSpare()=>boolean isSpare(int
 RefactoringAction 1497031658768 Frame.java RENAME isSpare(int)=>boolean isSpare() METHOD
 EditAction 1497031717823 TestBowling.java 387 2 4 2
 EditAction 1497031720830 Frame.java 702 6 7 0
+UnitTestCaseAction 1497031724349 TestBowling.java FAIL
+UnitTestSessionAction 1497031724351 TestBowling.java FAIL
+EditAction 1497031731799 Frame.java 761 6 8 0
