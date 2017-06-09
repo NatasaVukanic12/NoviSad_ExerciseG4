@@ -20,17 +20,16 @@ public class BowlingGame {
 		frames.add(frame);
 	}
 	
-	public int DodajSpareBonus(){
+	
+	public void dodajSpareBonus(){
 		
-		for(int i=0; i<frames.size(); i++){
-			if((frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow()) == 10 && i != frames.size()){
-				s = frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow() + frames.get(i+1).getFirstThrow();
-			
+		for(int i = 0; i < frames.size(); i++){
+			if(frames.get(i).isSpare() && i != frames.size() - 1){
+				frames.get(i).addBonus(frames.get(i+1).getFirstThrow());
+			}else if(frames.get(i).isStrike() && i != frames.size() - 1){
+				frames.get(i).addBonus(frames.get(i+1).getFirstThrow() + frames.get(i+1).getSecondThrow());
 			}
 		}
-		
-		return s;
-		
 	}
 	
 	// Sets the bonus throws at the end of the game

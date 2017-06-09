@@ -104,3 +104,14 @@ EditAction 1497033933533 BowlingGame.java 1090 5 4 0
 UnitTestCaseAction 1497033937384 TestBowling.java FAIL
 UnitTestSessionAction 1497033937388 TestBowling.java FAIL
 EditAction 1497034022340 BowlingGame.java 1165 5 5 0
+UnitTestCaseAction 1497034026283 TestBowling.java FAIL
+UnitTestSessionAction 1497034026285 TestBowling.java FAIL
+RefactoringAction 1497034078777 BowlingGame.java ADD void dodajBonuseFrejmovima() METHOD
+RefactoringAction 1497034119720 Frame.java ADD void addBonus(int) METHOD
+RefactoringAction 1497034130277 Frame.java ADD int score FIELD
+RefactoringAction 1497034134305 Frame.java RENAME score=>int scoreBonus FIELD
+RefactoringAction 1497034150977 BowlingGame.java REMOVE DodajSpareBonus() METHOD
+RefactoringAction 1497034154007 BowlingGame.java RENAME dodajBonuseFrejmovima()=>void dodajBonuse() METHOD
+RefactoringAction 1497034156556 BowlingGame.java RENAME dodajBonuse()=>void dodajSpareBonuse() METHOD
+RefactoringAction 1497034160080 BowlingGame.java RENAME dodajSpareBonuse()=>void dodajSpareBonus() METHOD
+EditAction 1497034164549 BowlingGame.java 1222 5 4 0
