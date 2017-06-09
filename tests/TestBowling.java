@@ -31,14 +31,14 @@ public class TestBowling {
 	}
 	
 	@Test
-	public void test_DodajBonusNaFrameSpare(){
+	public void test_DodajBonus(){
 		
 		BowlingGame game = new BowlingGame();
 		Frame f1 = new Frame(5,5);
 		Frame f2 = new Frame(2,5);
 		game.addFrame(f1);
 		game.addFrame(f2);		
-		assertEquals(19,game.DodajSpareBonus());
+		assertEquals(19, game.setBonus());
 	}
 	
 	@Test
@@ -50,6 +50,13 @@ public class TestBowling {
 		game.addFrame(f2);
 		assertEquals(10, game.score());
 		
+	}
+	
+	@Test
+	public void test_AddBonus(){
+		Frame f1 = new Frame(3,1);
+		f1.addBonus(5);
+		assertEquals(9, );
 	}
 
 }

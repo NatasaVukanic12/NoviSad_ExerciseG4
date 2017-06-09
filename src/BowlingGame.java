@@ -21,7 +21,7 @@ public class BowlingGame {
 	}
 	
 	
-	public void dodajSpareBonus(){
+	public void dodajSpareStrikeBonus(){
 		
 		for(int i = 0; i < frames.size(); i++){
 			if(frames.get(i).isSpare() && i != frames.size() - 1){
