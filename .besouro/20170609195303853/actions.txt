@@ -153,3 +153,5 @@ RefactoringAction 1497034759086 TestBowling.java ADD void test_DodajBonus() METH
 RefactoringAction 1497034782330 TestBowling.java ADD void test_AddBonus() METHOD
 RefactoringAction 1497034850394 Frame.java REMOVE addBonus(int) METHOD
 EditAction 1497034854450 TestBowling.java 1141 6 21 6
+CompilationAction 1497034858444 TestBowling.java
+EditAction 1497034858600 Frame.java 840 6 9 0
