@@ -38,7 +38,7 @@ public class TestBowling {
 		Frame f2 = new Frame(2,5);
 		game.addFrame(f1);
 		game.addFrame(f2);		
-		assertEquals(19, game);
+		assertEquals(19, f1.getFirstThrow()+ f1.getSecondThrow());
 	}
 	
 	@Test
@@ -85,9 +85,37 @@ public class TestBowling {
 		game.addFrame(f10);
 		
 		assertEquals(50, game.score());
+	
+	}
+	
+
+	@Test
+	public void test_DesetobacanjeSaBonusom(){
+		BowlingGame game =  new BowlingGame();
+		Frame f1 = new Frame(5,1);
+		Frame f2 = new Frame(3,1);
+		Frame f3 = new Frame(5,1);
+		Frame f4 = new Frame(3,1);
+		Frame f5 = new Frame(5,1);
+		Frame f6 = new Frame(3,1);
+		Frame f7 = new Frame(5,1);
+		Frame f8 = new Frame(3,1);
+		Frame f9 = new Frame(5,1);
+		Frame f10 = new Frame(3,1);
 		
+		game.addFrame(f1);
+		game.addFrame(f2);
+		game.addFrame(f3);
+		game.addFrame(f4);
+		game.addFrame(f5);
+		game.addFrame(f6);
+		game.addFrame(f7);
+		game.addFrame(f8);
+		game.addFrame(f9);
+		game.addFrame(f10);
 		
-		
+		assertEquals(50, game.score());
+	
 	}
 
 }

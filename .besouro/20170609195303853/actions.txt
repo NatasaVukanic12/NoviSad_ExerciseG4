@@ -172,3 +172,12 @@ RefactoringAction 1497035049517 TestBowling.java RENAME test_=>void test_Deseto 
 RefactoringAction 1497035052106 TestBowling.java RENAME test_Deseto=>void test_Desetobacanje FIELD
 RefactoringAction 1497035054758 TestBowling.java RENAME test_Desetobacanje=>void test_Desetobacanje() METHOD
 EditAction 1497035168999 TestBowling.java 1800 7 43 7
+UnitTestCaseAction 1497035172728 TestBowling.java FAIL
+UnitTestSessionAction 1497035172728 TestBowling.java FAIL
+RefactoringAction 1497035187501 TestBowling.java ADD void test_Desetobacanje()/2 METHOD
+RefactoringAction 1497035190606 TestBowling.java RENAME test_Desetobacanje()/2=>void test_DesetobacanjeSa() METHOD
+RefactoringAction 1497035193211 TestBowling.java RENAME test_DesetobacanjeSa()=>void test_DesetobacanjeSaBonusom() METHOD
+RefactoringAction 1497035225457 BowlingGame.java ADD void BonbusDesetoBacanje() METHOD
+RefactoringAction 1497035230620 BowlingGame.java RENAME BonbusDesetoBacanje()=>void BonbusDesetoBacanje(int) METHOD
+RefactoringAction 1497035392957 BowlingGame.java REMOVE BonbusDesetoBacanje(int) METHOD
+EditAction 1497035480787 TestBowling.java 2498 8 65 8
