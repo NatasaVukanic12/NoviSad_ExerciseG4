@@ -23,8 +23,8 @@ public class BowlingGame {
 	public void DodajSpareBonus() throws BowlingException{
 		
 		for(int i=0; i<frames.size(); i++){
-			if((frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow()) == 10){
-				s= frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow() + frames.get(i+1).getFirstThrow();
+			if((frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow()) == 10 && i != frames.size()){
+				s = frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow() + frames.get(i+1).getFirstThrow();
 			
 			}
 			else{
@@ -32,6 +32,10 @@ public class BowlingGame {
 			}
 			
 		}
+		
+	}
+	
+	
 	}
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
