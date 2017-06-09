@@ -92,3 +92,4 @@ RefactoringAction 1497033472862 TestBowling.java RENAME test_Bo=>void test_Bonus
 RefactoringAction 1497033474898 TestBowling.java RENAME test_BonusNaDesetoBacanje=>void test_BonusNaDesetoBacanje() METHOD
 RefactoringAction 1497033742639 TestBowling.java REMOVE test_BonusNaDesetoBacanje() METHOD
 EditAction 1497033790686 TestBowling.java 815 4 12 4
+EditAction 1497033793679 BowlingGame.java 1082 5 4 0

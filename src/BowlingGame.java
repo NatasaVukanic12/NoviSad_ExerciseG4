@@ -20,18 +20,16 @@ public class BowlingGame {
 		frames.add(frame);
 	}
 	
-	public void DodajSpareBonus() throws BowlingException{
+	public int DodajSpareBonus(){
 		
 		for(int i=0; i<frames.size(); i++){
 			if((frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow()) == 10 && i != frames.size()){
 				s = frames.get(i).getFirstThrow() + frames.get(i).getSecondThrow() + frames.get(i+1).getFirstThrow();
 			
 			}
-			else{
-				throw new BowlingException();
-			}
-			
 		}
+		
+		return s;
 		
 	}
 	
