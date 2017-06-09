@@ -101,3 +101,6 @@ RefactoringAction 1497033826875 TestBowling.java RENAME test_Score=>void test_Sc
 RefactoringAction 1497033827903 TestBowling.java RENAME test_ScoreGame=>void test_ScoreGame() METHOD
 EditAction 1497033929438 TestBowling.java 1040 5 18 5
 EditAction 1497033933533 BowlingGame.java 1090 5 4 0
+UnitTestCaseAction 1497033937384 TestBowling.java FAIL
+UnitTestSessionAction 1497033937388 TestBowling.java FAIL
+EditAction 1497034022340 BowlingGame.java 1165 5 5 0
