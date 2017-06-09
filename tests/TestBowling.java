@@ -38,7 +38,7 @@ public class TestBowling {
 		Frame f2 = new Frame(2,5);
 		game.addFrame(f1);
 		game.addFrame(f2);		
-		assertEquals(19, f1.getFirstThrow()+ f1.getSecondThrow());
+		assertEquals(19, game.dodajSpareStrikeBonus());
 	}
 	
 	@Test
