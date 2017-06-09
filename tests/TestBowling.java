@@ -14,5 +14,11 @@ public class TestBowling {
 		Frame frame = new Frame(3,5);
 		assertEquals(8,frame.score());
 	}
+	
+	@Test
+	public void test_Spare(){
+		Frame frame = new Frame(5,5);
+		assertEquals(10, frame.isSpare());
+	}
 
 }
