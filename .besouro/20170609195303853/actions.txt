@@ -64,3 +64,5 @@ RefactoringAction 1497032089059 TestBowling.java RENAME test_DodajBonusNaFr=>voi
 RefactoringAction 1497032090076 TestBowling.java RENAME test_DodajBonusNaFrame=>void test_DodajBonusNaFrame() METHOD
 RefactoringAction 1497032141195 TestBowling.java RENAME test_DodajBonusNaFrame()=>void test_DodajBonusNaFrameSpare() METHOD
 EditAction 1497032630909 TestBowling.java 813 4 12 4
+CompilationAction 1497032634034 TestBowling.java
+EditAction 1497032634201 BowlingGame.java 733 4 2 0
