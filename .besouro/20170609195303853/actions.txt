@@ -132,3 +132,6 @@ RefactoringAction 1497034421735 Frame.java RENAME addBonus=>void addBonus() METH
 RefactoringAction 1497034427928 Frame.java RENAME addBonus()=>void addBonus(int) METHOD
 RefactoringAction 1497034578828 TestBowling.java RENAME test_DodajBonusNaFrameSpare()=>void test_DodajBonus() METHOD
 EditAction 1497034581184 BowlingGame.java 1228 5 4 0
+CompilationAction 1497034584210 TestBowling.java
+CompilationAction 1497034584210 TestBowling.java
+EditAction 1497034584351 Frame.java 899 7 10 0
