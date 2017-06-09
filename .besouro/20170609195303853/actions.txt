@@ -39,3 +39,6 @@ UnitTestSessionAction 1497031735281 TestBowling.java OK
 RefactoringAction 1497031742416 TestBowling.java ADD void test_Spare()/2 METHOD
 RefactoringAction 1497031746942 TestBowling.java RENAME test_Spare()/2=>void test_Strike() METHOD
 EditAction 1497031758039 TestBowling.java 499 3 6 3
+UnitTestCaseAction 1497031762306 TestBowling.java FAIL
+UnitTestSessionAction 1497031762308 TestBowling.java FAIL
+EditAction 1497031799246 Frame.java 808 6 9 0
