@@ -53,3 +53,4 @@ RefactoringAction 1497031908247 TestBowling.java ADD import java.util.ArrayList 
 RefactoringAction 1497031908250 TestBowling.java ADD import java.util.List IMPORT
 RefactoringAction 1497032025325 TestBowling.java REMOVE test_addFrame() METHOD
 EditAction 1497032044604 TestBowling.java 560 3 6 3
+EditAction 1497032047562 BowlingGame.java 730 4 2 0
